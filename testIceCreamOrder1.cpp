@@ -11,6 +11,7 @@
 using namespace std;
 
 int main() {
+
 	cout << "Running tests from: " << __FILE__ << endl;
 
 	IceCreamOrder order1;

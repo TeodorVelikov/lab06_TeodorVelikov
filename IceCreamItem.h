@@ -1,8 +1,7 @@
 // IceCreamItem.h
 // Written for CS32 W19.
 
-#ifndef ICECREAMITEM_H
-#define ICECREAMITEM_H
+#pragma once
 
 #include <string>
 
@@ -10,7 +9,7 @@ class IceCreamItem {
 public:
 	// Constructor for an IceCreamItem. All ice cream items
 	// will either be "small", "medium", or "large".
-	IceCreamItem(std::string size);
+    IceCreamItem(std::string size);
 
 	// A virtual method that composes a string with the details
 	// of an IceCreamItem. See the lab writeup and test files
@@ -19,9 +18,9 @@ public:
 
 	// Returns the dollar amount of an ice cream item.
 	virtual double getPrice() = 0;
+    
 protected:
 	double price;
 	std::string size;
 };
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef TDDFUNCS_H
-#define TDDFUNCS_H
+#pragma once
 
 #include <string>
 #include <iostream>
@@ -40,5 +39,3 @@ void assertEquals(const char * const expected,
 void assertTrue(bool expression, std::string message="");
 
 #define ASSERT_TRUE(expression) assertTrue(expression,#expression)
-
-#endif // TDDFUNCS_H

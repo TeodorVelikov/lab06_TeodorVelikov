@@ -1,8 +1,7 @@
 // IceCreamOrder.h
 // Written for CS32 W19.
 
-#ifndef ICECREAMORDER_H
-#define ICECREAMORDER_H
+#pragma once
 
 #include <vector>
 #include <string>
@@ -16,5 +15,4 @@ private:
 	std::vector<IceCreamItem*> items;
 };
 
-#endif
 
